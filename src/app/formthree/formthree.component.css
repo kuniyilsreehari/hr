@@ -1,0 +1,58 @@
+label {
+    font-weight: 600;
+    color: #666;
+}
+body {
+  background: #f1f1f1;
+}
+.box8{
+  box-shadow: 0px 0px 5px 1px white;
+}
+.mx-t3{
+  margin-top: -3rem;
+}
+.col-sm-12{
+    text-align: right;
+}
+
+.loader {
+    --dim: 3rem;
+    width: var(--dim);
+    height: var(--dim);
+    position: relative;
+    animation: spin988 2s linear infinite;
+  }
+  
+  .loader .circle {
+    --color: #333;
+    --dim: 1.2rem;
+    width: var(--dim);
+    height: var(--dim);
+    background-color: var(--color);
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .loader .circle:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  
+  .loader .circle:nth-child(2) {
+    top: 0;
+    right: 0;
+  }
+  
+  .loader .circle:nth-child(3) {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .loader .circle:nth-child(4) {
+    bottom: 0;
+    right: 0;
+  }
+  
+  #button{
+    float: right;
+  }

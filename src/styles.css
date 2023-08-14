@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit&family=Oswald:wght@600&family=Poppins&display=swap');
+
+body{
+    
+    font-family: 'Kanit', sans-serif;
+    background-image: url(https://cdn.wallpapersafari.com/12/74/u7FfAl.jpg);
+  
+}

@@ -1,0 +1,95 @@
+<app-header1></app-header1>
+
+<!-- <head>
+  <style>
+    .row {
+      background-image: url(https://t4.ftcdn.net/jpg/02/83/13/61/360_F_283136113_b3VRHNiOPFMOluzYJPpfuoH8Czh9c743.jpg);
+        background-size: 100%;
+      height: 800px;
+       width: 100%;   
+    } 
+  </style>
+</head> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" style="background-image: url(https://t3.ftcdn.net/jpg/04/75/35/38/240_F_475353802_NIirw6epKuG36L5Jl1zRJZBE5q1ZsJ55.jpg); background-repeat:no-repeat;
+    margin-top: 25px;background: size 100%;background-position: center;">
+
+    </div>
+    <div class="col-md-1" >
+
+    </div>
+    <div class="col-md-4">
+      <form class="form">
+        <p class="title">Register </p>
+        <p class="message">Signup now and get full access to our app. </p>
+        
+
+        <select class="form-select"  aria-label="Default select example" (change)="check($event.target)">
+          <option selected hidden>Select </option>
+          <option value="1">Employee</option>
+          <option value="2">Employer</option>
+         
+        </select>
+                
+        <label>
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
+        </label> 
+            
+        <!-- <label>
+            <input required="" placeholder="" type="password" class="input">
+            <span>Password</span>
+        </label> -->
+
+        
+        <label>
+          <input required="" placeholder="" type="phone number" class="input">
+          <span>Phone number</span>
+      </label>
+
+      <label class="container">
+        <input type="checkbox">I agree to the Terms of Service and Privacy Policy.
+        <span class="checkmark"></span>
+      </label> 
+
+        <!-- Button trigger modal -->
+<button routerLink="/formone" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+  Sign Up Now
+</button>
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Verify your Phone number and Email
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" >Verifiy
+
+          
+        </button>
+      </div>
+    </div>
+  </div>
+</div> -->
+        <h6>  or sign in using &nbsp;
+          <i class="fa-brands fa-google"></i>&nbsp;&nbsp;
+          <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;
+          <i class="fa-brands fa-microsoft"></i>&nbsp;&nbsp;
+        </h6>
+        
+        
+    </form>
+    </div>
+    <div class="col-md-3">
+      
+    </div>
+  </div>
+ 
+</div>

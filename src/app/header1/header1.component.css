@@ -1,0 +1,10 @@
+body{
+    overflow: hidden;
+    background-image: url(https://t3.ftcdn.net/jpg/04/51/83/22/360_F_451832202_e1QKPBz6HJm25BlNZwi0OT1404WGMs1i.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  } 
+  .signinn{
+/* background-color: brown; */
+color:rgb(255, 168, 7);
+  }
