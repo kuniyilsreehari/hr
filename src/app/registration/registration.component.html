@@ -6,8 +6,8 @@
       background-image: url(https://t4.ftcdn.net/jpg/02/83/13/61/360_F_283136113_b3VRHNiOPFMOluzYJPpfuoH8Czh9c743.jpg);
         background-size: 100%;
       height: 800px;
-       width: 100%;   
-    } 
+       width: 100%;
+    }
   </style>
 </head> -->
 
@@ -21,29 +21,29 @@
 
     </div>
     <div class="col-md-4">
-      <form class="form">
+      <form class="form" [formGroup]="from">
         <p class="title">Register </p>
         <p class="message">Signup now and get full access to our app. </p>
-        
 
-        <select class="form-select"  aria-label="Default select example" (change)="check($event.target)">
+
+        <select class="form-select" formControlName="type" aria-label="Default select example" >
           <option selected hidden>Select </option>
           <option value="1">Employee</option>
           <option value="2">Employer</option>
-         
+
         </select>
-                
+
         <label>
             <input required="" placeholder="" type="email" class="input">
             <span>Email</span>
-        </label> 
-            
+        </label>
+
         <!-- <label>
             <input required="" placeholder="" type="password" class="input">
             <span>Password</span>
         </label> -->
 
-        
+
         <label>
           <input required="" placeholder="" type="phone number" class="input">
           <span>Phone number</span>
@@ -52,10 +52,10 @@
       <label class="container">
         <input type="checkbox">I agree to the Terms of Service and Privacy Policy.
         <span class="checkmark"></span>
-      </label> 
+      </label>
 
         <!-- Button trigger modal -->
-<button routerLink="/formone" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+<button  type="button" class="btn btn-danger" (click)="check()"  >
   Sign Up Now
 </button>
 
@@ -72,7 +72,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" >Verifiy
 
-          
+
         </button>
       </div>
     </div>
@@ -83,13 +83,13 @@
           <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;
           <i class="fa-brands fa-microsoft"></i>&nbsp;&nbsp;
         </h6>
-        
-        
+
+
     </form>
     </div>
     <div class="col-md-3">
-      
+
     </div>
   </div>
- 
+
 </div>

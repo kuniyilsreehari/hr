@@ -1,4 +1,22 @@
 <app-header></app-header>
+
+<head>
+  <style>
+    .row{
+      background-repeat: no-repeat;
+      background-position:center;
+      background-attachment: fixed;
+      background-size: cover;
+      height:400px;
+      width:100%;
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.R5AUEKRv7dOcJ590Oip3_gHaEK&pid=Api&P=0&h=180);
+    
+    }
+
+  </style>
+</head>
+
+
 <div class="container mt-2">
     <form>
       <div class="row jumbotron box8">
@@ -16,14 +34,14 @@
           </div>
         <div class="col-sm-6 form-group mt-2">
           <label for="Stream">Stream:</label>
-          <input type="text" class="form-control" name="stream" id="stream" placeholder="" required>
+          <input type="text" class="form-control " name="stream" id="stream" placeholder="" required>
         </div>
         <br>
         <div class="col-sm-6 form-group mt-2">
           <label for="name-l">Institution / college :</label>
           <input type="text" class="form-control" name="lname" id="name-l" placeholder="" required>
         </div>
-        <div class="col-sm-2 form-group mt-2">
+        <div class="col-sm-6 form-group mt-2">
           <label for="Passout year">Passout year:</label>
           <input type="year" class="form-control" name="year" id="number" placeholder="" required>
         </div>
@@ -32,17 +50,17 @@
           <input type="text" class="form-control" name="year" id="number" placeholder="" required>
 
           <br>
-         <button routerLink="/formone" class="btn btn-primary">Back</button>
+         <button routerLink="/formone" class="btn btn-danger">Back</button>
           
         </div>
         <br>
-        <div class="col-sm-2 form-group mt-2">
+        <div class="col-sm-6 form-group mt-2">
         
           <label for="Percentage">Percentage obtained:</label>
           <input type="percentage" class="form-control" name="percentage" id="Percentage" placeholder="" required>
           <br>
           
-   <button id="button1" routerLink="/formthree" class="btn btn-primary  " type="button">Save and Next </button>
+   <button id="button1"  class="btn btn-danger  " type="button" routerLink="/formthree">Save and Next </button>
          
         </div>
 

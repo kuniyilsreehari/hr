@@ -6,21 +6,19 @@ import { FormthreeComponent } from './formthree/formthree.component';
 import { AppModule } from './app.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { FormfourComponent } from './formfour/formfour.component';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
-import { SignComponent } from './sign/sign.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { VerificationComponent } from './verification/verification.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { NotificationComponent } from './notification/notification.component';
 
 const routes: Routes = [
 
   {
     path: '', component: WelcomepageComponent
   },
-  {
-    path: 'sign', component: SignComponent
-  },
+
   {
     path: 'login', component: LoginComponent
   },
@@ -28,7 +26,7 @@ const routes: Routes = [
   {
     path: 'registration', component: RegistrationComponent
   },
- 
+
 
   {
     path: 'formone', component: FormoneComponent
@@ -39,14 +37,18 @@ const routes: Routes = [
   {
     path: 'formthree', component: FormthreeComponent
   },
-  {
-    path: 'formfour', component: FormfourComponent
 
-  },
   {
     path:'verification' , component:VerificationComponent
+  },
+
+  {
+    path:'employee' , component:EmployeeComponent
+  },
+  {
+    path:'notification' , component:NotificationComponent
   }
- 
+
 
 
 ];

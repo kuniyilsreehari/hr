@@ -1,5 +1,22 @@
 <app-header></app-header>
 
+<head>
+  <style>
+    .row{
+      background-repeat: no-repeat;
+      background-position:center;
+      background-attachment: fixed;
+      background-size: cover;
+      height:400px;
+      width:100%;
+      background-image: url(https://tse3.mm.bing.net/th?id=OIP.R5AUEKRv7dOcJ590Oip3_gHaEK&pid=Api&P=0&h=180);
+    
+    }
+
+  </style>
+</head>
+
+
 <div class="container mt-3">
     <form>
       <div class="row jumbotron box8">
@@ -54,14 +71,14 @@
           </select>
           <br>
 
-          <button routerLink="/formtwo" class="btn btn-primary">Back</button>
+          <button routerLink="/formtwo" class="btn btn-danger">Back</button>
         </div>
         <br>
         <div class="col-sm-6 form-group mt-2">
           <label for="expectedsalary">Expected Salary</label>
-          <input type="salary" class="form-control" name="salary" id="salary" placeholder="Enter expected salary" required>
+          <input type="salary" class="form-control" name="salary" id="salary"  required>
           <br>
-          <button routerLink="/homeone" id="button" class="btn btn-primary ">Save & Submit
+          <button routerLink="/employee"  id="button" class="btn btn-danger">Save & Next
            
             
           </button>
